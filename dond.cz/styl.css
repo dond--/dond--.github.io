@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:500|Noto+Sans');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css');
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  border: none;
+  text-decoration: none;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  font-family: 'Quicksand', Helvetica, sans-serif;
+}
+
+#container {
+  padding: 2em;
+  width: inherit;
+  height: inherit;
+  align-items: center;
+  justify-content: center;
+  /* TODO: clean-up */
+/*  border: solid 1px red;*/
+}
+
+.picture {
+  height: 100%;
+  width: 50%;
+  float: left;
+  /* TODO: clean-up */
+/*  border: solid 1px green;*/
+  background-position: center center;
+  background-size: cover;
+}
+
+#main .picture {
+  background-image: url('pexels-photo-544296.jpeg');/* credit: Tyler Lastovich: https://www.pexels.com/photo/axe-close-up-dark-grass-544296/ */
+}
+
+#contacts .picture {
+  background-image: url('mailbox-2119366_1920.jpg');/* credit: 2780243 https://pixabay.com/en/mailbox-old-post-letter-boxes-2119366/ */
+}
+
+#contacts, #work, #hobby {
+  display: none;
+} 
+
+.content {
+  height: 100%;
+  width: 50%;
+  float: right;
+  padding: 1em 2em;
+  /* TODO: clean-up */
+/*  border: solid 1px brown;*/
+}
+
+.content header {
+  text-align: center;
+}
+
+#main .content header h1 {
+  text-transform: lowercase;
+  letter-spacing: -.08em;
+}
+
+#main .content header h2 {
+  letter-spacing: -.04em;
+}
+
+.content #claim {
+  font-style: italic;
+  text-align: center;
+  padding: 0.7em 0 1.5em 0;
+  border-bottom: dotted 1px #ddd;
+}
+
+.content .links ul {
+  text-align: center;
+  vertical-align: baseline;
+  display: block;
+  list-style-type: none;
+  padding: 3em 0 0 0;
+}
+
+#contacts .content .links ul {
+  text-align: left;
+  padding: 3em 0 1.5em 2em;
+}
+
+.content .links ul li {
+  position: relative;
+  display: block;
+  vertical-align: middle;
+}
+
+.content .links ul li:after {
+  display: block;
+  height: 10vh;
+  min-height: 2em;
+  width: 0;
+  content: '';
+}
+
+#work .picture {
+  float: right;
+  background-image: url('pexels-photo-64609.jpeg');/* credit: Caio https://www.pexels.com/photo/construction-wall-house-door-64609/ */
+}
+
+#hobby .picture {
+  float: right;
+  background-image: url('pexels-photo-414513.jpeg');/* credit: Pixabay https://www.pexels.com/photo/clouds-landscape-mountain-mountain-peak-414513/ */
+}
+
+#work .content, #hobby .content {
+  float: left;
+}
+
+#work .content .links, #hobby .content .links {
+  padding-bottom: 2em;
+}
+
+#work .content p, #hobby .content p {
+  padding: 1em 2em;
+  font-family: 'Noto Sans', Helvetica, sans-serif;
+}
+
+#work .content p a, #hobby .content p a {
+  color: black;
+  text-decoration: underline;
+}
+
+#contacts .content .links ul li:after {
+  height: 5vh;
+  min-height: 1em;
+}
+
+#contacts a {
+  color: black !important;
+  text-decoration: underline;
+}
+
+footer {
+  text-align: center;
+}
+
+footer ul li {
+  display: inline;
+  list-style-type: none;
+}
+
+footer ul li .icon {
+  display: inline-block;
+  width: 3em;
+  height: 3em;
+  line-height: 3em;
+  text-align: center;
+}
+
+.button, #contacts .button {
+  background-color: transparent;
+  border-radius: 5px;
+  border: 0;
+  box-shadow: inset 0 0 0 1px #ddd;
+  color: black !important;
+  display: inline-block;
+  line-height: 3em;
+  height: 3em;
+  padding: 0 3em;
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.button:hover {
+  box-shadow: inset 0 0 0 1px #1E90FF;
+  color: #1E90FF !important;
+}
+
+a:hover, #contacts a:hover {
+  color: #1E90FF !important;
+}
+
+.icon:before, .contacts-icon:before {
+  font-family: 'FontAwesome';
+  text-decoration: none !important;
+  color: #bbb;
+}
+
+.icon:hover:before {
+  color: #1E90FF !important;
+}
+
+a.icon>span.inner {
+  display: none;
+}
+
+.contacts-icon {
+  display: inline-block;
+  width: 2em;
+  margin-right: 1em;
+}
+
+/**
+ * TODO
+ *
+ * – colours re-definition:
+ *   – frames: #ddd
+ *   – :hover colors: #1E90FF
+ *   - FontAwesome icons: #bbb
+ * – get local copy of used main font
+ * – make shorter bottom border under #claim
+ */
