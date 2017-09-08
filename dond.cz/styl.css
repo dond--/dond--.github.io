@@ -44,7 +44,7 @@ body {
   background-image: url('mailbox-2119366_1920.jpg');/* credit: 2780243 https://pixabay.com/en/mailbox-old-post-letter-boxes-2119366/ */
 }
 
-#contacts, #work, #hobby {
+#contacts, #work {
   display: none;
 } 
 
@@ -77,29 +77,29 @@ body {
   border-bottom: dotted 1px #ddd;
 }
 
-.content .links ul {
+.content ul.links  {
   text-align: center;
   vertical-align: baseline;
   display: block;
   list-style-type: none;
-  padding: 3em 0 0 0;
+  padding: 5vh 0 0 0;
 }
 
-#contacts .content .links ul {
+#contacts .content ul.links {
   text-align: left;
   padding: 3em 0 1.5em 2em;
 }
 
-.content .links ul li {
+.content .links li {
   position: relative;
   display: block;
   vertical-align: middle;
 }
 
-.content .links ul li:after {
+.content .links li:after {
   display: block;
-  height: 10vh;
-  min-height: 2em;
+  height: 5vh;
+  min-height: 1em;
   width: 0;
   content: '';
 }
@@ -109,30 +109,30 @@ body {
   background-image: url('pexels-photo-64609.jpeg');/* credit: Caio https://www.pexels.com/photo/construction-wall-house-door-64609/ */
 }
 
-#hobby .picture {
-  float: right;
-  background-image: url('pexels-photo-414513.jpeg');/* credit: Pixabay https://www.pexels.com/photo/clouds-landscape-mountain-mountain-peak-414513/ */
-}
-
-#work .content, #hobby .content {
+#work .content {
   float: left;
 }
 
-#work .content .links, #hobby .content .links {
+#work .content .links {
   padding-bottom: 2em;
 }
 
-#work .content p, #hobby .content p {
-  padding: 1em 2em;
+.content p {
+  margin: 3vh 1em 0 1em;
   font-family: 'Noto Sans', Helvetica, sans-serif;
 }
 
-#work .content p a, #hobby .content p a {
+.content p.strong {
+  font-size: 1.05em;
+  font-weight: bold;
+}
+
+#work .content p a {
   color: black;
   text-decoration: underline;
 }
 
-#contacts .content .links ul li:after {
+#contacts .content .links li:after {
   height: 5vh;
   min-height: 1em;
 }
@@ -163,7 +163,7 @@ footer ul li .icon {
   background-color: transparent;
   border-radius: 5px;
   border: 0;
-  box-shadow: inset 0 0 0 1px #ddd;
+  box-shadow: inset 0 0 0 1px #ccc;
   color: black !important;
   display: inline-block;
   line-height: 3em;
@@ -174,7 +174,7 @@ footer ul li .icon {
   text-transform: uppercase;
 }
 
-.button:hover {
+.button:hover, #contacts .button:hover {
   box-shadow: inset 0 0 0 1px #1E90FF;
   color: #1E90FF !important;
 }
@@ -186,7 +186,7 @@ a:hover, #contacts a:hover {
 .icon:before, .contacts-icon:before {
   font-family: 'FontAwesome';
   text-decoration: none !important;
-  color: #bbb;
+  color: #aaa;
 }
 
 .icon:hover:before {
@@ -209,7 +209,7 @@ a.icon>span.inner {
  * – colours re-definition:
  *   – frames: #ddd
  *   – :hover colors: #1E90FF
- *   - FontAwesome icons: #bbb
+ *   - FontAwesome icons: #aaa
  * – get local copy of used main font
  * – make shorter bottom border under #claim
  */
