@@ -30,7 +30,7 @@
 	ol, ul
 	{
 		padding: 0;
-		list-style: none;
+    list-style: none;
 	}
 	
 	p
@@ -187,6 +187,7 @@
 	.boxB,
 	.boxC
 	{
+    padding: 5em 0 0 0;
 		width: 384px;
 		text-align: center;
 	}
@@ -385,8 +386,8 @@
 	#featured
 	{
 		overflow: hidden;
-		padding: 5em 0em;
-		border-top: 1px solid rgba(0,0,0,0.1);
+    padding: 0 0 5em 0;
+		border-bottom: 1px solid rgba(0,0,0,0.1);
 	}
 	
 	#featured .align-left
@@ -431,3 +432,17 @@
 		font-size: 1.2em;
 		color: #FFF;
 	}
+
+/* dond.cz */
+
+ul.circle {
+  list-style: circle inside;
+}
+
+ul.dots {
+  list-style: none inside;
+}
+
+ul.dots li:before {
+  content: '… ';
+}
