@@ -404,6 +404,10 @@
 		color: #8dc63f;
 	}
 
+  #featured .fa.normal {
+    font-size: 1em;
+  }
+
 	#featured .align-right
 	{
 		float: right;
