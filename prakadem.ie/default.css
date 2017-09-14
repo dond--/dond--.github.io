@@ -57,7 +57,7 @@
 	{
 		overflow: hidden;
 		margin: 0em auto;
-		width: 1200px;
+    width: 100%;
 	}
 	
 /*********************************************************************************/
@@ -188,7 +188,7 @@
 	.boxC
 	{
     padding: 5em 0 0 0;
-		width: 384px;
+		width: 32vw;
 		text-align: center;
 	}
 
@@ -212,7 +212,7 @@
 	.boxB
 	{
 		float: left;
-		margin-right: 20px;
+		margin-right: 2vw;
 	}
 	
 	.boxC
@@ -238,7 +238,7 @@
 	{
 		position: absolute;
 		top: 4em;
-		left: 0;
+		left: 2em;
 	}
 	
 	#logo h1
@@ -259,7 +259,7 @@
 	{
 		position: absolute;
 		top: 5em;
-		right: 0;
+		right: 1em;
 	}
 	
 	#menu ul
@@ -393,8 +393,9 @@
 	#featured .align-left
 	{
 		float: left;
-		width: 384px;
+		width: 33vw;
 		padding-top: 1em;
+    margin-right: 1vw;
 		text-align: center;
 	}
 	
@@ -411,8 +412,9 @@
 	#featured .align-right
 	{
 		float: right;
-		width: 792px;
+		width: 63vw;
 		font-size: 1.4em;
+    padding-right: 3vw;
 	}
 
 

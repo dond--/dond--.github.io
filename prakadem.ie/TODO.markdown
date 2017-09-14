@@ -2,7 +2,6 @@
 
 ## všechno
 
-* odsazení hlavních nadpisů (nalepeno moc vlevo)
 * defaultní šířka moc velká, nevejde se horní navigace
 * kontrola sjednocení názvu – je to PR Akademie, Akademie PR pro neziskovky, nebo?
 * sjednocení hlavičky, patičky
@@ -23,6 +22,7 @@
 
 ## Lektoři
 
+* kontrola odkazů v menu
 * fotky lektorek a lektorů
 * vyladit layout pro případ, kdy nebude odkaz na osobní stránku (nahradit odkazem na LinkedIn?)
 * odkazy na další kontakty pro dotazy (a la o-akademii.html)
