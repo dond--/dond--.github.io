@@ -41,7 +41,8 @@ body {
 }
 
 #contacts .picture {
-  background-image: url('mailbox-2119366_1920.jpg');/* credit: 2780243 https://pixabay.com/en/mailbox-old-post-letter-boxes-2119366/ */
+/*  background-image: url('mailbox-2119366_1920.jpg');|+ credit: 2780243 https://pixabay.com/en/mailbox-old-post-letter-boxes-2119366/ +|*/
+  background-image: url('do_full.jpg');/* credit: 2780243 https://pixabay.com/en/mailbox-old-post-letter-boxes-2119366/ */
 }
 
 #contacts, #work {
