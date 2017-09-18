@@ -49,11 +49,14 @@
       for(var a=0;a<ars.length;a++){
         var ar=ars[a]
         if(ar.id!==id){
-          ar.style.display='none'
           ar.setAttribute('data-current','')
+          //console.log('hiding '+ar.id)
+          ar.style.display='none'
         }else{
-          ar.style.display='block'
           ar.setAttribute('data-current','true')
+          //console.log('showing '+ar.id)
+          ar.style.display='block'
+          //ar.classList.toggle('visible')
         }
       }
     }
@@ -149,6 +152,6 @@
 </html>
 <!-- 
 TODO:
-* animations
-* own photos
+* animations – hiding of whole <article>
+* own photos – main page; scaling!
 -->

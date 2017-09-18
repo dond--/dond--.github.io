@@ -9,6 +9,13 @@
   text-decoration: none;
 }
 
+p.noscript {
+  margin: 1em auto;
+  font-weight: bold;
+  text-align: center;
+  color: #1E90FF;
+}
+
 body {
   display: flex;
   flex-direction: column;
@@ -24,6 +31,11 @@ body {
   justify-content: center;
   /* TODO: clean-up */
 /*  border: solid 1px red;*/
+}
+
+#container article {
+  transition: display .5s ease-in-out;
+/*  opacity: 0;*/
 }
 
 .picture {
@@ -115,7 +127,8 @@ body {
 
 #work .picture {
   float: right;
-  background-image: url('pexels-photo-64609.jpeg');/* credit: Caio https://www.pexels.com/photo/construction-wall-house-door-64609/ */
+  background-image: url('peru_2400.jpg');
+  background-position: 25%;
 }
 
 #work .content {
@@ -172,6 +185,10 @@ footer ul li .icon {
   background-color: transparent;
   border-radius: 5px;
   border: 0;
+  -webkit-transition: color .2s ease-in-out, box-shadow .2s ease-in-out;
+  -moz-transition: color .2s ease-in-out, box-shadow .2s ease-in-out;
+  -ms-transition: color .2s ease-in-out, box-shadow .2s ease-in-out;
+  transition: color .2s ease-in-out, box-shadow .2s ease-in-out;
   box-shadow: inset 0 0 0 1px #ccc;
   color: black !important;
   display: inline-block;
@@ -186,6 +203,14 @@ footer ul li .icon {
 .button:hover, #contacts .button:hover {
   box-shadow: inset 0 0 0 1px #1E90FF;
   color: #1E90FF !important;
+}
+
+.button:active, #contacts .button:active {
+  -webkit-transition: opacity .25s ease-in-out;
+  -moz-transition: opacity .25s ease-in-out;
+  -ms-transition: opacity .25s ease-in-out;
+  transition: opacity .25s ease-in-out;
+  opacity: 0;
 }
 
 a:hover, #contacts a:hover {
