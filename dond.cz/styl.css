@@ -235,10 +235,3 @@ a.icon>span.inner {
   width: 2em;
   margin-right: 1em;
 }
-
-/**
- * TODO
- *
- * – get local copy of used main font
- * – think of using CSS Variables for colors – https://www.w3.org/TR/css-variables/
- */
