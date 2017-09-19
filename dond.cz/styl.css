@@ -29,21 +29,13 @@ body {
   height: inherit;
   align-items: center;
   justify-content: center;
-  /* TODO: clean-up */
-/*  border: solid 1px red;*/
 }
 
 #container article {
   transition: display .5s ease-in-out;
-/*  opacity: 0;*/
 }
 
 .picture {
-  height: 100%;
-  width: 50%;
-  float: left;
-  /* TODO: clean-up */
-/*  border: solid 1px green;*/
   background-position: center center;
   background-size: cover;
 }
@@ -66,8 +58,6 @@ body {
   float: right;
   padding: 1em 2em;
   overflow: auto;
-  /* TODO: clean-up */
-/*  border: solid 1px brown;*/
 }
 
 .content header {
@@ -126,7 +116,6 @@ body {
 }
 
 #work .picture {
-  float: right;
   background-image: url('peru_2400.jpg');
   background-position: 25%;
 }
@@ -235,4 +224,41 @@ a.icon>span.inner {
   display: inline-block;
   width: 2em;
   margin-right: 1em;
+}
+
+@media only screen and (min-width: 769px) {
+  .picture {
+    height: 100%;
+    width: 50%;
+    float: left;
+  }
+
+  #work .picture {
+    float: right;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .picture {
+    height: 33vw;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    float: none;
+  }
+
+  .content {
+    width: 100%;
+    position: absolute;
+    top: 33vw;
+    left: 0;
+    float: none;
+    overflow: visible;
+    height: auto;
+  }
+
+  #contacts .picture {
+    background-position: center 25%;
+  }
 }
