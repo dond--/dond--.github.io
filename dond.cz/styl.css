@@ -65,6 +65,7 @@ body {
   width: 50%;
   float: right;
   padding: 1em 2em;
+  overflow: auto;
   /* TODO: clean-up */
 /*  border: solid 1px brown;*/
 }
@@ -148,7 +149,7 @@ body {
   font-weight: bold;
 }
 
-#work .content p a {
+#main .content p a, #work .content p a {
   color: black;
   text-decoration: underline;
 }
