@@ -2,7 +2,8 @@
 
 ## všechno
 
-* defaultní šířka moc velká, nevejde se horní navigace
+* zarovnání baseline + menu v horní liště
+* překryv <h1> a menu při velmi úzkém okně – responzivita (1 sloupec pro úzký viewport)
 * kontrola sjednocení názvu – je to PR Akademie, Akademie PR pro neziskovky, nebo?
 * sjednocení hlavičky, patičky
 * kontrola © pro obrázky – pro všechny musí být uvedeno, nebo všechny fotky vlastní
@@ -12,6 +13,7 @@
 
 * kontrola odkazů v menu
 * odkaz na přihlašovací formulář
+* moc velká mezera pod pravým blokem, nad trojicí čtverečků / odkazů
 
 ## O PR Akademii
 
