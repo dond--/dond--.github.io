@@ -285,9 +285,7 @@ ul.contact li a.icon-rss:before { background: #F2600B; }
 
 #content {
   clear: both;
-  border-top: 1px solid rgba(0,0,0,.1);
   font-size: 1.4em;
-  margin-top: 2em;
   padding: 2em 3vw 0 3vw;
 }
 
@@ -363,6 +361,10 @@ ul.contact li a.icon-rss:before { background: #F2600B; }
   padding: 0 3vw 0 3vw;
 }
 
+#featured .align-right p, #featured .align-right h2 {
+  margin-top: 0;
+}
+
 .box {
   margin-bottom: 2em;
   padding-bottom: 2em;
@@ -381,10 +383,13 @@ ul.contact li a.icon-rss:before { background: #F2600B; }
   color: #FFF;
 }
 
-/* dond.cz */
+/*********************************************************************************/
+/* dond.cz                                                                       */
+/*********************************************************************************/
 
 ul.circle {
-  list-style: circle inside;
+  list-style: circle outside;
+  padding-left: 1em;
 }
 
 ul.circle>li.lower {
@@ -398,4 +403,19 @@ ul.dots {
 
 ul.dots li:before {
   content: '… ';
+}
+
+p.quote {
+  font-style: italic;
+}
+
+p.quote:before {
+  position: absolute;
+  display: block;
+  margin-top: .25em;
+  padding-left: .1em;
+  content: '„…“';
+  font-size: 10em;
+  color: rgba(141,198,63,.2);
+  z-index: -1;
 }
