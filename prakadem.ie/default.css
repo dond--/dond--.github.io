@@ -412,8 +412,8 @@ p.quote {
 p.quote:before {
   position: absolute;
   display: block;
-  margin-top: .25em;
-  padding-left: .1em;
+  margin-top: 4vh;
+  padding-left: 2vw;
   content: '„…“';
   font-size: 10em;
   color: rgba(141,198,63,.2);
