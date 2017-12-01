@@ -344,13 +344,19 @@ ul.contact li a.icon-rss:before { background: #F2600B; }
   width: 46vw;
   height: 50vh;
   margin-right: 1vw;
-  background: url(images/notes-macbook-study-conference.jpg) no-repeat center;
+  background: url(images/PR_2017_final.jpg) no-repeat top;
   background-size: cover;
   text-align: center;
 }
 
 #featured .align-left.team {
   background: url(images/12186244_872100939571763_9200534245662798890_o.jpg) no-repeat 20%;
+  background-size: cover;
+}
+
+#featured .align-left.about {
+  background: url(images/17796085_10211246225725041_402630098325582395_n.jpg) no-repeat center;
+  background-size: cover;
 }
 
 #featured .fa {
