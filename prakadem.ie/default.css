@@ -350,7 +350,7 @@ ul.contact li a.icon-rss:before { background: #F2600B; }
   height: 50vh;
   margin-right: 1vw;
   background: url(images/PR_2017_final.jpg) no-repeat top;
-  background-size: cover;
+  background-size: contain;
   text-align: center;
 }
 
@@ -360,7 +360,7 @@ ul.contact li a.icon-rss:before { background: #F2600B; }
 }
 
 #featured .align-left.about {
-  background: url(images/17796085_10211246225725041_402630098325582395_n.jpg) no-repeat center;
+  background: url(images/17796085_10211246225725041_402630098325582395_n.jpg) no-repeat top;
   background-size: cover;
 }
 
