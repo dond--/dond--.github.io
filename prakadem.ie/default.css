@@ -160,7 +160,7 @@ ul.contact li a.icon-rss:before { background: #F2600B; }
 /*********************************************************************************/
 
 .boxA, .boxB, .boxC {
-  padding: 5em 0 0 0;
+  padding: 2em 0 0 0;
   width: 32vw;
   text-align: center;
 }
@@ -190,7 +190,7 @@ ul.contact li a.icon-rss:before { background: #F2600B; }
 
 #header {
   position: relative;
-  padding: 5em 0em;
+  padding: 3em 0em;
 }
 
 /*********************************************************************************/
@@ -199,7 +199,7 @@ ul.contact li a.icon-rss:before { background: #F2600B; }
 
 #logo {
   position: absolute;
-  top: 4em;
+  top: 1em;
   left: 2em;
 }
 
@@ -217,7 +217,7 @@ ul.contact li a.icon-rss:before { background: #F2600B; }
 
 #menu {
   position: absolute;
-  top: 5em;
+  top: 2.8em;
   right: 1em;
 }
 
