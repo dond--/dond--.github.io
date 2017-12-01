@@ -345,6 +345,10 @@ ul.contact li a.icon-rss:before { background: #F2600B; }
   text-align: center;
 }
 
+#featured .align-left.team {
+  background: url(images/12186244_872100939571763_9200534245662798890_o.jpg) no-repeat 20%;
+}
+
 #featured .fa {
   font-size: 14em;
   color: #8dc63f;
