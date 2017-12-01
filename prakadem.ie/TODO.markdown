@@ -2,7 +2,6 @@
 
 ## všechno
 
-* zarovnání baseline + menu v horní liště
 * překryv <h1> a menu při velmi úzkém okně – responzivita (1 sloupec pro úzký viewport)
 * kontrola sjednocení názvu – je to PR Akademie, Akademie PR pro neziskovky, nebo?
 * sjednocení hlavičky, patičky

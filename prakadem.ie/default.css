@@ -160,7 +160,7 @@ ul.contact li a.icon-rss:before { background: #F2600B; }
 /*********************************************************************************/
 
 .boxA, .boxB, .boxC {
-  padding: 5em 0 0 0;
+  padding: 2em 0 0 0;
   width: 32vw;
   text-align: center;
 }
@@ -190,7 +190,7 @@ ul.contact li a.icon-rss:before { background: #F2600B; }
 
 #header {
   position: relative;
-  padding: 5em 0em;
+  padding: 3em 0em;
 }
 
 /*********************************************************************************/
@@ -199,7 +199,7 @@ ul.contact li a.icon-rss:before { background: #F2600B; }
 
 #logo {
   position: absolute;
-  top: 4em;
+  top: 1em;
   left: 2em;
 }
 
@@ -217,7 +217,7 @@ ul.contact li a.icon-rss:before { background: #F2600B; }
 
 #menu {
   position: absolute;
-  top: 5em;
+  top: 2.8em;
   right: 1em;
 }
 
@@ -276,7 +276,7 @@ ul.contact li a.icon-rss:before { background: #F2600B; }
 #page {
   position: relative;
   overflow: hidden;
-  padding: 0;
+  padding: 2em 0 0 0;
 }
 
 /*********************************************************************************/
@@ -340,9 +340,13 @@ ul.contact li a.icon-rss:before { background: #F2600B; }
   width: 46vw;
   height: 50vh;
   margin-right: 1vw;
-  background: url(images/banner.jpg) no-repeat center;
+  background: url(images/notes-macbook-study-conference.jpg) no-repeat center;
   background-size: cover;
   text-align: center;
+}
+
+#featured .align-left.team {
+  background: url(images/12186244_872100939571763_9200534245662798890_o.jpg) no-repeat 20%;
 }
 
 #featured .fa {
