@@ -1,4 +1,4 @@
-# web PR Akademi – seznam dodělávek
+# web PR Akademie – seznam dodělávek
 
 ## všechno
 
