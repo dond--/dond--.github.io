@@ -210,6 +210,10 @@ ul.contact li a.icon-rss:before { background: #F2600B; }
 #logo h1 {
 }
 
+#logo h1 span.fa {
+  padding-right: 2em;
+}
+
 #logo a {
   text-decoration: none;
   color: #8dc63f;
@@ -223,6 +227,7 @@ ul.contact li a.icon-rss:before { background: #F2600B; }
   position: absolute;
   top: 2.8em;
   right: 1em;
+  max-width: 60vw;
 }
 
 #menu ul {
@@ -259,18 +264,6 @@ ul.contact li a.icon-rss:before { background: #F2600B; }
 }
 
 #menu .icon {
-}
-
-/*********************************************************************************/
-/* Banner                                                                        */
-/*********************************************************************************/
-
-#banner {
-  overflow: hidden;
-  padding: 15em 0em;
-  background: url(images/banner.jpg) no-repeat center;
-  background-size: cover;
-  border-top: 1px solid rgba(0,0,0,0.08);
 }
 
 /*********************************************************************************/
@@ -344,13 +337,19 @@ ul.contact li a.icon-rss:before { background: #F2600B; }
   width: 46vw;
   height: 50vh;
   margin-right: 1vw;
-  background: url(images/notes-macbook-study-conference.jpg) no-repeat center;
-  background-size: cover;
+  background: url(PR_2017_final.jpg) no-repeat top;
+  background-size: contain;
   text-align: center;
 }
 
 #featured .align-left.team {
-  background: url(images/12186244_872100939571763_9200534245662798890_o.jpg) no-repeat 20%;
+  background: url(vera2.jpg) no-repeat 20%;
+  background-size: cover;
+}
+
+#featured .align-left.about {
+  background: url(17796085.jpg) no-repeat top;
+  background-size: cover;
 }
 
 #featured .fa {
