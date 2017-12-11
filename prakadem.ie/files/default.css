@@ -339,8 +339,8 @@ ul.contact li a.icon-rss:before { background: #F2600B; }
   width: 46vw;
   height: 50vh;
   margin-right: 1vw;
-  background: url(PR_2017_final.jpg) no-repeat top;
-  background-size: contain;
+  background: url(jenda2.jpg) no-repeat top;
+  background-size: cover;
   text-align: center;
 }
 
