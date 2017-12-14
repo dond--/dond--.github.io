@@ -72,8 +72,15 @@ a:hover {
 }
 
 .image-left {
+  clear: left;
   float: left;
-  margin: 0 2em 2em 0;
+  margin: 0 2em 1em 0;
+}
+
+.image-right {
+  clear: right;
+  float: right;
+  margin: 0 0 1em 2em;
 }
 
 .image-centered {
@@ -84,6 +91,10 @@ a:hover {
 .image-centered img {
   margin: 0 auto;
   width: auto;
+}
+
+.image-small {
+  width: 70px;
 }
 
 /*********************************************************************************/
@@ -431,4 +442,20 @@ p.quote:before {
   font-size: 10em;
   color: rgba(141,198,63,.2);
   z-index: -1;
+}
+
+ul.image-team li {
+  clear: left;
+}
+
+ul.image-team>li img {
+  clear: left;
+  float: left;
+  padding-right: 1em;
+  margin-bottom: 1em;
+}
+
+ul.image-team~p {
+  clear: left;
+  text-align: center;
 }
