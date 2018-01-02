@@ -348,7 +348,7 @@ ul.contact li a.icon-rss:before { background: #F2600B; }
 #featured .align-left {
   float: left;
   width: 46vw;
-  height: 50vh;
+  height: 50vw;
   margin-right: 1vw;
   background: url(jenda2.jpg) no-repeat top;
   background-size: cover;
@@ -407,9 +407,13 @@ ul.contact li a.icon-rss:before { background: #F2600B; }
 /* dond.cz                                                                       */
 /*********************************************************************************/
 
+p~ul.circle {
+  margin-top: 0;
+}
+
 ul.circle {
   list-style: circle outside;
-  padding-left: 1em;
+  padding-left: 2em;
 }
 
 ul.circle>li.lower {
