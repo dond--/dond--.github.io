@@ -224,7 +224,7 @@ ul.contact li a.icon-rss:before { background: #F2600B; }
 }
 
 #logo h1 span.fa {
-  padding-right: 2em;
+  padding-right: 1.5em;
 }
 
 #logo a {
@@ -240,7 +240,7 @@ ul.contact li a.icon-rss:before { background: #F2600B; }
   position: absolute;
   top: 2.8em;
   right: 1em;
-  max-width: 60vw;
+  max-width: 70vw;
 }
 
 #menu ul {
@@ -254,10 +254,10 @@ ul.contact li a.icon-rss:before { background: #F2600B; }
 }
 
 #menu li:before {
-  content: "//";
-  padding: 1em 1.5em;
+  content: "|";
+  padding: 1em 1em;
   font-weight: 700;
-  color: rgba(0,0,0,.6);
+  color: rgba(0,0,0,.1);
 }
 
 #menu li a, #menu li span {
@@ -366,43 +366,16 @@ ul.contact li a.icon-rss:before { background: #F2600B; }
   background-size: cover;
 }
 
-@media only screen and (min-width: 841px) {
-  #featured .align-left {
-    float: left;
-    width: 46vw;
-    height: 50vw;
-    margin-right: 1vw;
-  }
-
-  #featured .align-right {
-    float: right;
-    width: 47vw;
-  }
+#featured .align-left {
+  float: left;
+  width: 46vw;
+  height: 50vw;
+  margin-right: 1vw;
 }
 
-@media only screen and (max-width: 840px) {
-  #featured {
-    float: none;
-    padding: 0 0 1em 0;
-  }
-
-  #featured .align-left {
-    display: block;
-    height: 33vw;
-    width: 100%;
-  }
-
-  #featured .align-right {
-    display: block;
-    width: auto;
-    top: 35vw;
-    padding: 1em 3vw;
-    margin: 0;
-  }
-
-  #content {
-    padding-top: 0;
-  }
+#featured .align-right {
+  float: right;
+  width: 47vw;
 }
 
 #featured .fa {
@@ -495,4 +468,54 @@ ul.image-team>li img {
 ul.image-team~p {
   clear: left;
   text-align: center;
+}
+
+/* responsiveness */
+
+@media only screen and (max-width: 840px) {
+  #header {
+    padding: 0;
+  }
+
+  #logo {
+    position: static;
+    padding: 0 2em;
+  }
+
+  #menu {
+    position: static;
+    display: block;
+    float: right;
+    width: auto;
+    max-width: 100%;
+    padding-right: 2em;
+  }
+
+  #menu li:before {
+    padding: 1em 1.5em;
+  }
+
+  #featured {
+    float: none;
+    padding: 0 0 1em 0;
+  }
+
+  #featured .align-left {
+    display: block;
+    float: none;
+    height: 33vw;
+    width: 100%;
+  }
+
+  #featured .align-right {
+    display: block;
+    float: none;
+    width: auto;
+    padding: 1em 3vw;
+    margin: 0;
+  }
+
+  #content {
+    padding-top: 0;
+  }
 }
