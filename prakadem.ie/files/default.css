@@ -473,6 +473,10 @@ ul.image-team~p {
 /* responsiveness */
 
 @media only screen and (max-width: 840px) {
+  body {
+    font-family: sans-serif; /* avoid unlocalized mobile fonts :-/ */
+  }
+
   #header {
     padding: 0;
   }
@@ -513,9 +517,11 @@ ul.image-team~p {
     width: auto;
     padding: 1em 3vw;
     margin: 0;
+    font-size: 1em;
   }
 
   #content {
     padding-top: 0;
+    font-size: 1em;
   }
 }
