@@ -346,13 +346,14 @@ ul.contact li a.icon-rss:before { background: #F2600B; }
 }
 
 #featured .align-left {
-  float: left;
-  width: 46vw;
-  height: 50vw;
-  margin-right: 1vw;
   background: url(jenda2.jpg) no-repeat top;
   background-size: cover;
   text-align: center;
+}
+
+#featured .align-right {
+  font-size: 1.4em;
+  padding: 0 3vw 0 3vw;
 }
 
 #featured .align-left.team {
@@ -365,6 +366,45 @@ ul.contact li a.icon-rss:before { background: #F2600B; }
   background-size: cover;
 }
 
+@media only screen and (min-width: 841px) {
+  #featured .align-left {
+    float: left;
+    width: 46vw;
+    height: 50vw;
+    margin-right: 1vw;
+  }
+
+  #featured .align-right {
+    float: right;
+    width: 47vw;
+  }
+}
+
+@media only screen and (max-width: 840px) {
+  #featured {
+    float: none;
+    padding: 0 0 1em 0;
+  }
+
+  #featured .align-left {
+    display: block;
+    height: 33vw;
+    width: 100%;
+  }
+
+  #featured .align-right {
+    display: block;
+    width: auto;
+    top: 35vw;
+    padding: 1em 3vw;
+    margin: 0;
+  }
+
+  #content {
+    padding-top: 0;
+  }
+}
+
 #featured .fa {
   font-size: 14em;
   color: #8dc63f;
@@ -372,13 +412,6 @@ ul.contact li a.icon-rss:before { background: #F2600B; }
 
 #featured .fa.normal {
   font-size: 1em;
-}
-
-#featured .align-right {
-  float: right;
-  width: 47vw;
-  font-size: 1.4em;
-  padding: 0 3vw 0 3vw;
 }
 
 #featured .align-right p, #featured .align-right h2 {
@@ -392,7 +425,7 @@ ul.contact li a.icon-rss:before { background: #F2600B; }
 
 .box span {
   margin: 0;
-  padding: 1em 1em;
+  padding: 1em .5em;
   background: #8dc63f;
   display: block;
   line-height: 3em;
