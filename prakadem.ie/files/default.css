@@ -341,12 +341,12 @@ ul.contact li a.icon-rss:before { background: #F2600B; }
 
 #featured {
   overflow: hidden;
-  padding: 0 0 3em 0;
+  padding: 2em 0 3em 0;
   border-bottom: 1px solid rgba(0,0,0,0.1);
 }
 
 #featured .align-left {
-  background: url(jenda2.jpg) no-repeat top;
+  background: url(DSC_5380.jpg) no-repeat 20%;
   background-size: cover;
   text-align: center;
 }
@@ -357,12 +357,12 @@ ul.contact li a.icon-rss:before { background: #F2600B; }
 }
 
 #featured .align-left.team {
-  background: url(vera2.jpg) no-repeat 80%;
+  background: url(DSC_2393.jpg) no-repeat 45%;
   background-size: cover;
 }
 
 #featured .align-left.about {
-  background: url(studio2.jpg) no-repeat top;
+  background: url(DSC_5981.jpg) no-repeat 30%;
   background-size: cover;
 }
 
@@ -389,6 +389,26 @@ ul.contact li a.icon-rss:before { background: #F2600B; }
 
 #featured .align-right p, #featured .align-right h2 {
   margin-top: 0;
+}
+
+#featured ul.ddd>li {
+  padding: .5em 0 0 0;
+  text-align: right;
+  line-height: 1.6em;
+  width: 100%;
+  border-bottom: 1px dotted #ddd;
+  font-size: 1.2em;
+  font-style: italic;
+}
+
+#featured ul.ddd>li:before {
+  content: '→ ';
+  font-weight: 900;
+  color: #8dc63f;
+}
+
+#featured .above {
+  padding-top: 1em;
 }
 
 .box {
@@ -470,6 +490,24 @@ ul.image-team~p {
   text-align: center;
 }
 
+span.social {
+  display: inline-block;
+  position: absolute;
+  height: 35px;
+  width: 120px;
+  z-index: 100;
+  background-image: url("social.png");
+  background-size: cover;
+}
+
+.rotate-move {
+  transform: rotate(335deg) translate(-0.6em,-.2em);
+}
+
+.rotate-move-up {
+  transform: rotate(335deg) translate(0.5em,-0.5em);
+}
+
 /* responsiveness */
 
 @media only screen and (max-width: 840px) {
@@ -518,6 +556,10 @@ ul.image-team~p {
     padding: 1em 3vw;
     margin: 0;
     font-size: 1em;
+  }
+
+  span.social.rotate-move-up {
+    display: none;
   }
 
   #content {
