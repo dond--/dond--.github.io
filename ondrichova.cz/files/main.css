@@ -2920,7 +2920,7 @@
 			-ms-transition: opacity 1.5s ease-in-out, visibility 1.5s;
 			transition: opacity 1.5s ease-in-out, visibility 1.5s;
 			content: '';
-			background-image: url(DSC_6375.jpg);
+			background-image: url(DSC_0186.jpg);
 			background-attachment: fixed;
 			background-position: center;
 			background-repeat: no-repeat;
@@ -2962,10 +2962,10 @@
 			#header > .logo a {
 				font-size: 4rem;
 				font-weight: 700;
-        color: #333;
-/*        color: #fff;*/
+        color: #fff;
 				text-decoration: none;
 				line-height: 1rem;
+        text-shadow: 0 -1px 0 #555, 2px 4px 3px rgba(0,0,0,0.5);
 			}
 
 			#header > .logo span {
