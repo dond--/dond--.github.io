@@ -508,6 +508,10 @@ span.social {
   transform: rotate(335deg) translate(0.5em,-0.5em);
 }
 
+.mid {
+  text-align: center;
+}
+
 /* responsiveness */
 
 @media only screen and (max-width: 840px) {
