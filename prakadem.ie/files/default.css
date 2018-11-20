@@ -299,7 +299,7 @@ ul.contact li a.icon-rss:before { background: #F2600B; }
   padding: 2em 3vw 0 3vw;
 }
 
-#content>p {
+#content>p, #content>h2 {
   margin-top: 0;
 }
 
@@ -455,6 +455,10 @@ ul.contact li a.icon-rss:before { background: #F2600B; }
   background: url(vzdelani.jpg) no-repeat 30%;
 }
 
+#featured .pr-fb.program {
+  background: url(DSC_5578.jpg) no-repeat 30%;
+}
+
 /*********************************************************************************/
 /* dond.cz                                                                       */
 /*********************************************************************************/
@@ -483,6 +487,13 @@ ul.dots li:before {
 
 ul.after {
   padding-bottom: 1em;
+}
+
+ul>li.delim {
+  border-top: dotted 1px #ddd;
+  border-bottom: dotted 1px #ddd;
+  padding-bottom: .1em;
+  margin-bottom: 1em;
 }
 
 p.quote {
