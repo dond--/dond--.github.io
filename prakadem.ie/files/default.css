@@ -495,16 +495,17 @@ ul>li.delim {
   margin-bottom: 1em;
 }
 
-p.quote {
-  font-style: italic;
+p.quote, div.box~p, p.quote+p {
   background-color: rgba(141,198,63,.03);
   padding: 1em;
 }
 
+p.quote {
+  font-style: italic;
+}
+
 p.quote+p {
-  background-color: rgba(141,198,63,.03);
   margin-top: 0px;
-  padding-bottom: 1em;
 }
 
 ul.image-team li {
