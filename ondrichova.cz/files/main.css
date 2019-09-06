@@ -2719,6 +2719,10 @@ header p {
       color: #FFF;
     }
 
+    .spotlight.alt strong,.spotlight.alt b {
+      color: #E1E0DC;
+    }
+
     .spotlight.alt .image {
       -moz-order: 2;
       -webkit-order: 2;
@@ -3056,9 +3060,7 @@ body {
 }
 
 .wrapper > header p {
-  text-transform: uppercase;
   font-weight: 300;
-/*      font-size: .8rem;*/
   letter-spacing: .1rem;
   margin: 0;
 }
