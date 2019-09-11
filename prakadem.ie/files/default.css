@@ -553,6 +553,7 @@ span.social {
 
 .col {
   display: table-cell;
+  padding-bottom: 3em;
 }
 
 /* responsiveness */
