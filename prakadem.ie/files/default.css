@@ -495,6 +495,14 @@ ul>li.delim {
   margin-bottom: 1em;
 }
 
+ol.num {
+  list-style: decimal outside;
+}
+
+ol.num>li {
+  margin-left: 3em;
+}
+
 p.quote, div.box~p, p.quote+p {
   background-color: rgba(141,198,63,.03);
   padding: 1em;
