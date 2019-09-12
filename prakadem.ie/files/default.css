@@ -347,6 +347,7 @@ ul.contact li a.icon-rss:before { background: #F2600B; }
   overflow: hidden;
   padding: 2em 0 3em 0;
   border-bottom: 1px solid rgba(0,0,0,0.1);
+  font-size: 1.4em;
 }
 
 #featured .align-left {
@@ -356,7 +357,6 @@ ul.contact li a.icon-rss:before { background: #F2600B; }
 }
 
 #featured .align-right {
-  font-size: 1.4em;
   padding: 0 3vw 0 3vw;
 }
 
@@ -373,7 +373,7 @@ ul.contact li a.icon-rss:before { background: #F2600B; }
 #featured .align-left {
   float: left;
   width: 46vw;
-  height: 50vw;
+  height: 25vw;
   margin-right: 1vw;
 }
 
@@ -399,7 +399,7 @@ ul.contact li a.icon-rss:before { background: #F2600B; }
   padding: .5em 0 0 0;
   text-align: right;
   line-height: 1.6em;
-  width: 100%;
+/*  width: 100%;*/
   border-bottom: 1px dotted #ddd;
   font-size: 1.2em;
   font-style: italic;
@@ -413,6 +413,11 @@ ul.contact li a.icon-rss:before { background: #F2600B; }
 
 #featured .above {
   padding-top: 1em;
+}
+
+#featured .main {
+  clear: both;
+  padding: 1em 2em 0 2em;
 }
 
 .box {
