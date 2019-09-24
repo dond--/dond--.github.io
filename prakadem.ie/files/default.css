@@ -489,7 +489,7 @@ ul.dots li:before {
   content: '… ';
 }
 
-ul.after {
+.after {
   padding-bottom: 1em;
 }
 
